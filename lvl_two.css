@@ -1,0 +1,39 @@
+body, input{
+  background-color: #F3F5F6;
+  color: #495057;
+}
+
+.vertical{
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(0.3deg);
+  -moz-transform:rotate(0.3deg);
+  -o-transform: rotate(0.3deg);
+  -ms-transform:rotate(0.3deg);
+  transform: rotate(0.3deg);
+  white-space:nowrap;
+  display:block;
+  bottom:0;
+  width:20px;
+  height:20px;
+  margin-bottom: 115px;
+}
+
+#box1, #box2{
+  background-color: lightblue;
+  height: 100px;
+  border: solid 1px #495057;
+  margin-right: 1px;
+}
+
+.correct{
+  background-color: lightgreen !important;
+}
+
+form{
+  margin-top: 25px;
+}
+
+.user-input{
+  font-size: 400% !important;
+  text-transform: uppercase;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>RegEx Puzzle: Level 2 </title>
+	<link href="lvl_two.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+	</script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+	</script>
+</head>
+
+<body>
+	<h1 style="margin-left: 50px;">Level Two</h1>
+  
+  <div class="container">
+    <!-- row text for columns -->
+    <div class="row">
+      <h3 class="col s2 offset-s4 vertical" id="c1"></h3> <!-- col 1 -->
+      <h3 class="col s2 offset-s2 vertical" id="c2"></h3> <!-- col 2 -->
+    </div>
+
+    <!-- row of boxes -->
+    <div class="row">
+      <h3 class="col s2" id="r1"></h3> <!-- row 1 -->
+      <!-- input 1 -->
+      <div class="col s4" id="box1">
+        <form action="" class="col s4 offset-s4">
+          <input type="text" class="user-input" id="r1c1-user-answer" autocomplete="off" onkeydown="return (event.keyCode!=13);">
+        </form>
+      </div>
+
+      <!-- input 2 -->
+      <div class="col s4" id="box2">
+        <form action="" class="col s4 offset-s4">
+          <input type="text" class="user-input" id="r1c2-user-answer" autocomplete="off" onkeydown="return (event.keyCode!=13);">
+        </form>
+      </div>
+    </div>
+
+    <!-- row of buttons -->
+    <div class="row">
+      <button class="btn col s1 offset-s4" id="smt-lvl-two">submit</button>
+      <a href="lvl_three.html" class="btn col s1 offset-s2 disabled" id="gt-lvl-three">next</a>
+    </div>
+  </div>
+
+
+  <script src="lvl_two.js"></script>
+</body>
+</html>
